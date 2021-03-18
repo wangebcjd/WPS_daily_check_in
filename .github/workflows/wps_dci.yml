@@ -1,6 +1,7 @@
 name: 'WPS daily check in'
 
 on:
+  workflow_dispatch:
   push:
     branches: 
       - main
